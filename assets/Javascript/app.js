@@ -65,17 +65,9 @@
     var firstTrainTime = childSnapshot.val().firstTrainTime;
     var frequency = childSnapshot.val().frequency;
   
-    console.log(trainName);
-    console.log(destination);
-    console.log(firstTrainTime);
-    console.log(frequency);
   
-    // Prettify the employee start
     var convertedFirstTrainTime = moment(firstTrainTime, 'HH:mm').format("X");
     var currentTime = moment().format("X");
-
-    console.log("convertedFirst: " + convertedFirstTrainTime);
-    console.log("currentTime: " + currentTime);
 
     var diff, moduloDiff, minutesAway, nextArrival;
     if(currentTime > convertedFirstTrainTime)

@@ -5,3 +5,7 @@
   h2{
     padding: 5px;
   }
+
+  body {
+    background-image: url('../images/trainPic2.jpg');
+  }
