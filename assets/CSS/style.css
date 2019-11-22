@@ -1,0 +1,7 @@
+#trains-table th, td {
+    display: inline-block;
+    width: 20%;
+  }
+  h2{
+    padding: 5px;
+  }
